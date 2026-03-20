@@ -1,0 +1,22 @@
+# === FRONTEND ===
+/front/node_modules
+/front/.next
+/front/.env.local
+/front/.env
+/front/.npm/
+
+# === BACKEND (API) ===
+/api/bin/
+/api/obj/
+/api/*.db
+/api/*.sqlite
+/api/appsettings.*.local.json
+/api/.vs
+
+# Common
+.DS_Store
+.env
+*.env
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

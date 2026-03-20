@@ -1,0 +1,10 @@
+namespace api.Models.Requests;
+
+public class ProductRequest
+{
+    public required string SKU { get; set; }
+    public required string Name { get; set; }
+    public required string Description { get; set; }
+    public required decimal Price { get; set; }
+    public string? ImageUrl { get; set; }
+}
